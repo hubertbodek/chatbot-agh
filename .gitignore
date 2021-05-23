@@ -13,7 +13,7 @@ chatbot-agh-f77d20b72b75.json
 /build
 # /server/config/dev.js
 /server/models
-/server/routes/structjson.js
+# /server/routes/structjson.js
 # misc
 .DS_Store
 .env.local
