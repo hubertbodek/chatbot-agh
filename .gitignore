@@ -11,7 +11,7 @@ chatbot-agh-f77d20b72b75.json
 
 # production
 /build
-/server/config/dev.js
+# /server/config/dev.js
 /server/models
 /server/routes/structjson.js
 # misc
