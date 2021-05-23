@@ -24,7 +24,7 @@ const Background = styled.div`
 const WelcomeMessage = styled.div`
 	color: #616161;
 	position: absolute;
-	top: 6rem;
+	top: 8rem;
 	left: 50%;
 	transform: translateX(-50%);
 	font-size: 1.2rem;
