@@ -12,7 +12,7 @@ export const storeUserMessage = (message) => {
 
 export const storeBotMessage = (message) => async (dispatch, getState) => {
 	const response = await axios.post(
-		'http://localhost:5000/api/dialogflow/textQuery',
+		'/api/dialogflow/textQuery',
 		{
 			text: message,
 		}
