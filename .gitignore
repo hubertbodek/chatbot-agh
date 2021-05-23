@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .env
-# chatbot-agh-f77d20b72b75.json
+chatbot-agh-f77d20b72b75.json
 # dependencies
 /node_modules
 /.pnp
