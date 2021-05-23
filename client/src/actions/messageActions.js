@@ -10,15 +10,20 @@ export const storeUserMessage = (message) => {
 	};
 };
 
+
+
 export const storeBotMessage = (message) => async (dispatch, getState) => {
+
+	const endpoint = process.env.NODE_ENV === 'development' ? 'http://localhost:5000/api/dialogflow/textQuery' : "/api/dialogflow/textQuery"
+
 	const response = await axios.post(
-		'/api/dialogflow/textQuery',
+		endpoint,
 		{
 			text: message,
 		}
 	);
 
-	console.log(response.data);
+	// console.log(response.data);
 
 	dispatch({
 		type: 'STORE_BOT_MESSAGE',
