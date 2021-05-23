@@ -20,6 +20,7 @@ app.use(cors());
 app.use('/api/dialogflow', require('./server/routes/dialogflow'));
 
 // Serve static assets if in production
+
 if (process.env.NODE_ENV === 'production') {
 	// Set static folder
 	app.use(express.static('client/build'));
