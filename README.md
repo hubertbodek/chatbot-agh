@@ -20,6 +20,12 @@
  
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Home](./client/public/home.png)
+![Convo](./client/public/rozmowa.png)
+
+<p align="center">
+ <img src="./client/public/home.png" alt="Home"/>
+ <img src="./client/public/rozmowa.png" alt="Convo"/>
+</p>
 <!-- If you have screenshots you'd like to share, include them here. -->
 
