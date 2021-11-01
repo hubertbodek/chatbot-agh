@@ -20,8 +20,6 @@
  
 
 ## Screenshots
-![Home](./client/public/home.png)
-![Convo](./client/public/rozmowa.png)
 
 <p align="center">
  <img src="./client/public/home.png" alt="Home"/>
